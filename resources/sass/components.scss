@@ -1,0 +1,221 @@
+.hero{
+    height: 561px;
+    background: url("../assets/images/hero-back.png");
+    background-size: cover;
+    .hero-content{
+        margin-left: 17vw;
+        color: white;
+        h1{
+            font-size: 42px;
+            line-height: 46px;
+        }
+        p {
+            width: 24vw;
+            font-size: 15px;
+            line-height: 22px;
+        }
+        button{
+            height: 60px;
+            width: 15vw;
+            font-weight: 500;
+            background: #FFFFFF;
+            box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.15);
+            border-radius: 45px;
+            border: none;
+        }
+        button:hover{
+            background: #315b94;
+            color: white;
+        }
+    }
+}
+.section{
+    width: 60vw;
+    h3{
+        font-size: 32px;
+        color: white;
+    }
+}
+.home{
+    min-height: 200vh;
+    background: #111111 url("../assets/images/home-back.png") bottom no-repeat;
+    background-size: 100% auto;
+}
+.header{
+    width: 60vw;
+    color: white;
+    p{
+        font-weight: 500;
+    }
+}
+.home-blocks{
+    color: white;
+    overflow:hidden;
+}
+.other{
+    min-height: 100vh;
+    background: #111111 url("../assets/images/other-back.svg") top left fixed no-repeat;
+}
+.news-item{
+    color: white;
+    width: 65%;
+    h3{
+        width: 80%;
+    }
+}
+.news-additions{
+    width: 30%;
+    color:white;
+    h4{
+        font-size: 24px;
+    }
+    .related-news{
+        background: #222222;
+    }
+}
+.news-page{
+    .news-back{
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+    .news-big{
+        width: 75%;
+    }
+}
+.calendar{
+    width: 30%;
+}
+.calendar-cards{
+    width: 65%;
+}
+.gallery-section{
+    .home-gallery{
+        img{
+            border-radius:10px;
+            cursor: pointer;
+        }
+    }
+    .gallery-description{
+        .description{
+            font-size: 20px!important;
+        }
+    }
+}
+.federation-about{
+    background: transparent url('../assets/images/federation-back.png') no-repeat 100% 40% fixed;
+    color: white;
+    .name{
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    .position{
+        font-size: 15px;
+    }
+    .text{
+        font-size: 15px;
+        width: 50%;
+    }
+}
+.vue-horizontal-timeline{
+    padding: 0!important;
+    background: transparent!important;
+}
+.timeline{
+    overflow: hidden!important;
+    width: 75vw;
+    min-height: 35vw;
+    padding: 14vw 0!important;
+    .time{
+        background: #222222!important;
+        color: white!important;
+        width: 17vw;
+        padding: 15px!important;
+        border-radius: 10px!important;
+        height: 15vw;
+        .title{
+            font-size: 42px!important;
+            border-bottom: 0.5px solid #656565;
+        }
+        .content{
+            font-size: 15px!important;
+        }
+    }
+    .time:before{
+        display: none;
+    }
+    li:after{
+        background: white!important;
+    }
+    li{
+        width: 18vw!important;
+        background: #222222!important;
+    }
+}
+.scroll-left{
+    left: 0;
+    top: 45%;
+    z-index: 10;
+}
+.scroll-right{
+    right: 0;
+    top: 45%;
+}
+.contact-us{
+    background: white;
+    border: none;
+    color: #222222;
+    border-radius: 30px;
+    width: 15vw;
+    height: 60px;
+}
+.contact-us:hover{
+    background: #D85D28;
+    color: white;
+}
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 34, 34, 0.5);
+    z-index: 1000;
+    p{
+        color: white;
+        font-size: 16px;
+    }
+    .modal-contact{
+        background: #222222 url("../assets/images/calendar-card-back.svg") fixed center;
+        height: 55vh;
+        width: 30vw;
+        border-radius: 20px;
+        h3{
+            font-size: 32px;
+            font-weight: 500;
+            color: white;
+        }
+        input, textarea{
+            height: 60px;
+            background: transparent;
+            color: white;
+            width: 80%;
+            border: 1px solid gray;
+            border-radius: 10px;
+            outline: none;
+        }
+        textarea{
+            min-height: 10vh;
+        }
+        ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            color: gray;
+        }
+        ::-moz-placeholder { /* Firefox 19+ */
+            color: gray;
+        }
+        :-ms-input-placeholder { /* IE 10+ */
+            color: gray;
+        }
+        :-moz-placeholder { /* Firefox 18- */
+            color: gray;
+        }
+    }
+}

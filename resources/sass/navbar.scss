@@ -1,0 +1,21 @@
+.navbar-main{
+    background: #222222;
+    z-index: 10;
+    .navbar{
+        width: 60vw;
+        ul{
+            li{
+                list-style-type: none;
+            }
+        }
+        .nav-link{
+            color: white;
+        }
+        .active{
+            color: #D85D28;
+        }
+        .navbar-toggler{
+            background: #f9f9f9;
+        }
+    }
+}

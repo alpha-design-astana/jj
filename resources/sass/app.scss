@@ -1,0 +1,12 @@
+//
+@import 'navbar';
+@import 'components';
+@import 'details';
+body{
+    button{
+        outline: none!important;
+    }
+    img{
+        cursor: pointer!important;
+    }
+}

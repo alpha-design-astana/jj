@@ -1,0 +1,473 @@
+.navbar-main {
+  background: #222222;
+  z-index: 10;
+}
+
+.navbar-main .navbar {
+  width: 60vw;
+}
+
+.navbar-main .navbar ul li {
+  list-style-type: none;
+}
+
+.navbar-main .navbar .nav-link {
+  color: white;
+}
+
+.navbar-main .navbar .active {
+  color: #D85D28;
+}
+
+.navbar-main .navbar .navbar-toggler {
+  background: #f9f9f9;
+}
+
+.hero {
+  height: 561px;
+  background: url(/images/hero-back.png?effb08481a981aeb2d25ce4bf2fd7aef);
+  background-size: cover;
+}
+
+.hero .hero-content {
+  margin-left: 17vw;
+  color: white;
+}
+
+.hero .hero-content h1 {
+  font-size: 42px;
+  line-height: 46px;
+}
+
+.hero .hero-content p {
+  width: 24vw;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.hero .hero-content button {
+  height: 60px;
+  width: 15vw;
+  font-weight: 500;
+  background: #FFFFFF;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 45px;
+  border: none;
+}
+
+.hero .hero-content button:hover {
+  background: #315b94;
+  color: white;
+}
+
+.section {
+  width: 60vw;
+}
+
+.section h3 {
+  font-size: 32px;
+  color: white;
+}
+
+.home {
+  min-height: 200vh;
+  background: #111111 url(/images/home-back.png?c6f91ea7f5cfbe17529704dbfcfd3a99) bottom no-repeat;
+  background-size: 100% auto;
+}
+
+.header {
+  width: 60vw;
+  color: white;
+}
+
+.header p {
+  font-weight: 500;
+}
+
+.home-blocks {
+  color: white;
+  overflow: hidden;
+}
+
+.other {
+  min-height: 100vh;
+  background: #111111 url(/images/other-back.svg?5fb54537c00728d3ea116d575fa9b347) top left fixed no-repeat;
+}
+
+.news-item {
+  color: white;
+  width: 65%;
+}
+
+.news-item h3 {
+  width: 80%;
+}
+
+.news-additions {
+  width: 30%;
+  color: white;
+}
+
+.news-additions h4 {
+  font-size: 24px;
+}
+
+.news-additions .related-news {
+  background: #222222;
+}
+
+.news-page .news-back {
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.news-page .news-big {
+  width: 75%;
+}
+
+.calendar {
+  width: 30%;
+}
+
+.calendar-cards {
+  width: 65%;
+}
+
+.gallery-section .home-gallery img {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.gallery-section .gallery-description .description {
+  font-size: 20px !important;
+}
+
+.federation-about {
+  background: transparent url(/images/federation-back.png?d78222ed7c1802ff1d20bfbb44739de6) no-repeat 100% 40% fixed;
+  color: white;
+}
+
+.federation-about .name {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.federation-about .position {
+  font-size: 15px;
+}
+
+.federation-about .text {
+  font-size: 15px;
+  width: 50%;
+}
+
+.vue-horizontal-timeline {
+  padding: 0 !important;
+  background: transparent !important;
+}
+
+.timeline {
+  overflow: hidden !important;
+  width: 75vw;
+  min-height: 35vw;
+  padding: 14vw 0 !important;
+}
+
+.timeline .time {
+  background: #222222 !important;
+  color: white !important;
+  width: 17vw;
+  padding: 15px !important;
+  border-radius: 10px !important;
+  height: 15vw;
+}
+
+.timeline .time .title {
+  font-size: 42px !important;
+  border-bottom: 0.5px solid #656565;
+}
+
+.timeline .time .content {
+  font-size: 15px !important;
+}
+
+.timeline .time:before {
+  display: none;
+}
+
+.timeline li:after {
+  background: white !important;
+}
+
+.timeline li {
+  width: 18vw !important;
+  background: #222222 !important;
+}
+
+.scroll-left {
+  left: 0;
+  top: 45%;
+  z-index: 10;
+}
+
+.scroll-right {
+  right: 0;
+  top: 45%;
+}
+
+.contact-us {
+  background: white;
+  border: none;
+  color: #222222;
+  border-radius: 30px;
+  width: 15vw;
+  height: 60px;
+}
+
+.contact-us:hover {
+  background: #D85D28;
+  color: white;
+}
+
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(34, 34, 34, 0.5);
+  z-index: 1000;
+}
+
+.modal p {
+  color: white;
+  font-size: 16px;
+}
+
+.modal .modal-contact {
+  background: #222222 url(/images/calendar-card-back.svg?c55f7d6df518f83c6fa9947223bed354) fixed center;
+  height: 55vh;
+  width: 30vw;
+  border-radius: 20px;
+}
+
+.modal .modal-contact h3 {
+  font-size: 32px;
+  font-weight: 500;
+  color: white;
+}
+
+.modal .modal-contact input,
+.modal .modal-contact textarea {
+  height: 60px;
+  background: transparent;
+  color: white;
+  width: 80%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  outline: none;
+}
+
+.modal .modal-contact textarea {
+  min-height: 10vh;
+}
+
+.modal .modal-contact ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: gray;
+}
+
+.modal .modal-contact ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: gray;
+}
+
+.modal .modal-contact :-ms-input-placeholder {
+  /* IE 10+ */
+  color: gray;
+}
+
+.modal .modal-contact :-moz-placeholder {
+  /* Firefox 18- */
+  color: gray;
+}
+
+.calendar-card {
+  background: #222222 url(/images/calendar-card-back.svg?c55f7d6df518f83c6fa9947223bed354) no-repeat;
+  background-size: cover;
+  color: white;
+  border-radius: 10px;
+  width: 19vw;
+}
+
+.calendar-card p {
+  margin-bottom: 0 !important;
+}
+
+.calendar-card .day {
+  font-size: 124px;
+  height: 124px;
+}
+
+.calendar-card .date {
+  height: 90px;
+  font-size: 42px;
+  line-height: 42px;
+}
+
+.calendar-card .title {
+  font-weight: 500;
+  width: 80%;
+  font-size: 20px;
+}
+
+.calendar-card .description {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.calendar-card hr {
+  background: #C4C4C4;
+  opacity: 0.1;
+}
+
+.VueCarousel-slide {
+  width: 15vw !important;
+}
+
+.VueCarousel-slide-active:last-of-type {
+  opacity: 0.2;
+}
+
+.VueCarousel-slide-active:first-of-type {
+  opacity: 0.2;
+}
+
+.VueCarousel {
+  width: 100vw !important;
+}
+
+.news-card .news {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.news-card .news-description {
+  min-width: 80%;
+  position: absolute;
+  right: 5px;
+  bottom: -20px;
+  background: #222222;
+}
+
+.news-card .date {
+  font-size: 12px;
+}
+
+.news-card .title {
+  min-width: 10vw;
+  font-size: 16px;
+  margin-bottom: 0 !important;
+  font-weight: 500;
+}
+
+.news-card:hover {
+  box-shadow: -1px 1px 14px 3px #918a91;
+}
+
+.home-gallery .gallery-description {
+  bottom: 20px;
+  left: 20px;
+}
+
+.home-gallery .gallery-description p {
+  margin-bottom: 0 !important;
+}
+
+.home-gallery .gallery-description .date {
+  font-size: 12px;
+  color: white;
+}
+
+.home-gallery .gallery-description .description {
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.breadcrumb {
+  width: 60vw;
+  background: transparent !important;
+  color: white;
+  font-size: 12px;
+}
+
+.load-button {
+  width: 13vw;
+  height: 60px;
+  background: transparent;
+  color: white;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 45px;
+}
+
+.load-button:hover {
+  background: #D85D28;
+}
+
+.gallery-item {
+  width: 32%;
+  height: 12vw;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.map {
+  width: 70%;
+}
+
+.map .gmap {
+  height: 50vh;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contacts-details {
+  width: 25%;
+}
+
+.contacts-details .gray {
+  color: #696969;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.contacts-details .white {
+  font-size: 16px;
+  color: white;
+}
+
+.short {
+  width: 30ch;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+body button {
+  outline: none !important;
+}
+
+body img {
+  cursor: pointer !important;
+}
+
