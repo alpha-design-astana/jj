@@ -2,7 +2,7 @@
     <div class="navbar-main d-flex justify-content-center">
         <nav class="navbar navbar-expand-lg pl-0 pr-0">
             <a class="navbar-brand" href="/">
-                <img src="@assets/images/logo.svg"/>
+                <Logo fill="white" width="136" height="40"/>
             </a>
             <button
                 class="navbar-toggler"
@@ -86,7 +86,11 @@
     </div>
 </template>
 <script>
+    import Logo from "../../assets/images/logo.vue";
     export default{
-        name:'navbar-main'
+        name:'navbar-main',
+        components:{
+            Logo
+        }
     }
 </script>

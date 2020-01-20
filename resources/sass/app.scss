@@ -2,7 +2,16 @@
 @import 'navbar';
 @import 'components';
 @import 'details';
+@import 'loader';
+@font-face {
+    font-family: "Helvetica";
+    src: url("../assets/fonts/HelveticaNeueCyr-Light.woff2") format("woff2");
+}
 body{
+    font-family: Helvetica;
+    p, h1, h3{
+        font-family: Helvetica;
+    }
     button{
         outline: none!important;
     }

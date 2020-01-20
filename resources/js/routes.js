@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 Vue.use(VueRouter);
 import Landing from "./Pages/landing.vue"
 import Other from "./Pages/other.vue"
+import Loader from "./Pages/loader.vue"
 
 export default new VueRouter({
     mode: 'history',
@@ -55,6 +56,12 @@ export default new VueRouter({
             path:"/pages/:type",
             component: Other,
             props:true,
+        },
+        {
+            name:"loader",
+            path:"/loader",
+            component: Loader,
+            props:false,
         }
         ]
     });

@@ -20,3 +20,6 @@ Route::get('/pages/{type}', function () {
 Route::get('/pages/{type}/{id}', function () {
     return view('welcome');
 });
+Route::get('/loader', function () {
+    return view('welcome');
+});

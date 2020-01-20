@@ -1,0 +1,26 @@
+.loader1{
+    background: #1B2E50;
+    height: 100%;
+    z-index: 1000;
+    color:#D85D28;
+    overflow: hidden;
+    .logo-loader{
+        left: 42.5vw;
+        top: 45vh;
+    }
+    p{
+        font-size: 30px;
+        margin-top: 40vh;
+    }
+}
+.loader2{
+    height: 100%;
+    width: 100%;
+    background: #D85D28;
+    color: #1B2E50;
+    z-index:1;
+    p {
+        font-size: 30px;
+        margin-top: 40vh;
+    }
+}
