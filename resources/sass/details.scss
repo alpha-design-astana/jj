@@ -144,3 +144,11 @@
     overflow: hidden;
     white-space: nowrap;
 }
+.news-mini, .news-card{
+    .date, .title{
+        color: white!important;
+    }
+    .date:hover, .title:hover{
+        text-decoration: none!important;
+    }
+}

@@ -49,7 +49,7 @@
     </div>
 </template>
 <script>
-    import Breadcrumb from "../Components/Breadcrumb"
+    import Breadcrumb from "../Components/breadcrumb"
 
     export default{
         components:{

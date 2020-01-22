@@ -19,10 +19,10 @@
     import News from "./news";
     import NewsItem from "./newsItem";
     import Navbar from "../Components/navbar";
-    import Events from "../Pages/events";
-    import Gallery from "../pages/gallery";
-    import GalleryItem from "../pages/galleryItem";
-    import Contacts from "../Pages/contacts";
+    import Events from "./events";
+    import Gallery from "./gallery";
+    import GalleryItem from "./galleryItem";
+    import Contacts from "./contacts";
     import Federation from "./federation";
 
     export default{

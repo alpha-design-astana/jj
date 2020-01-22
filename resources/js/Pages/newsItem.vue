@@ -162,7 +162,7 @@
 </template>
 <script>
     import Navbar from "../Components/navbar";
-    import Breadcrumb from "../Components/Breadcrumb";
+    import Breadcrumb from "../Components/breadcrumb";
     import CalendarCard from "../Components/calendarCard";
     import { Carousel, Slide } from 'vue-carousel';
 
