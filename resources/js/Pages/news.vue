@@ -6,22 +6,25 @@
         </span>
         <div class="header mt-4 d-flex justify-content-between">
             <div class="news-big d-flex flex-wrap justify-content-between">
-                <NewsCard style="width: 30%; height: 17vw;" class="mb-5 mt-3"/>
-                <NewsCard style="width: 30%; height: 17vw;" class="mb-5 mt-3"/>
-                <NewsCard style="width: 30%; height: 17vw;" class="mb-5 mt-3"/>
-                <NewsCard style="width: 30%; height: 17vw;" class="mb-5 mt-3"/>
-                <NewsCard style="width: 30%; height: 17vw;" class="mb-5 mt-3"/>
-                <NewsCard style="width: 30%; height: 17vw;" class="mb-5 mt-3"/>
+                <NewsCard class="news-item-card mb-5 mt-3"/>
+                <NewsCard class="news-item-card mb-5 mt-3"/>
+                <NewsCard class="news-item-card mb-5 mt-3"/>
+                <NewsCard class="news-item-card mb-5 mt-3"/>
+                <NewsCard class="news-item-card mb-5 mt-3"/>
+                <NewsCard class="news-item-card mb-5 mt-3"/>
+                <NewsCard class="news-item-card mb-5 mt-3"/>
+                <NewsCard class="news-item-card mb-5 mt-3"/>
+                <NewsCard class="news-item-card mb-5 mt-3"/>
             </div>
             <div class="news-mini mt-3 ml-4">
                 <router-link to="/pages/news/2" class="d-flex news-card justify-content-between mb-4">
                     <img src="@assets/images/news/news1.svg" style="width: 4vw; height: 5vw"/>
                     <span class="ml-3">
                         <p class="date">12.12.2019</p>
-                        <p class="title">
+                        <p class="title t-16">
                             Битва Чемпионов 11:
                         </p>
-                        <p class="title">
+                        <p class="title title-res t-16">
                             Школа против школы
                         </p>
                     </span>
@@ -30,10 +33,10 @@
                     <img src="@assets/images/news/news1.svg" style="width: 4vw; height: 5vw"/>
                     <span class="ml-3">
                         <p class="date">12.12.2019</p>
-                        <p class="title">
+                        <p class="title t-16">
                             Битва Чемпионов 11:
                         </p>
-                        <p class="title">
+                        <p class="title title-res t-16">
                             Школа против школы
                         </p>
                     </span>
@@ -42,10 +45,10 @@
                     <img src="@assets/images/news/news1.svg" style="width: 4vw; height: 5vw"/>
                     <span class="ml-3">
                         <p class="date">12.12.2019</p>
-                        <p class="title">
+                        <p class="title t-16">
                             Битва Чемпионов 11:
                         </p>
-                        <p class="title">
+                        <p class="title title-res t-16">
                             Школа против школы
                         </p>
                     </span>
@@ -54,10 +57,10 @@
                     <img src="@assets/images/news/news1.svg" style="width: 4vw; height: 5vw"/>
                     <span class="ml-3">
                         <p class="date">12.12.2019</p>
-                        <p class="title">
+                        <p class="title t-16">
                             Битва Чемпионов 11:
                         </p>
-                        <p class="title">
+                        <p class="title title-res t-16">
                             Школа против школы
                         </p>
                     </span>
@@ -66,10 +69,10 @@
                     <img src="@assets/images/news/news1.svg" style="width: 4vw; height: 5vw"/>
                     <span class="ml-3">
                         <p class="date">12.12.2019</p>
-                        <p class="title">
+                        <p class="title t-16">
                             Битва Чемпионов 11:
                         </p>
-                        <p class="title">
+                        <p class="title title-res t-16">
                             Школа против школы
                         </p>
                     </span>
@@ -78,10 +81,10 @@
                     <img src="@assets/images/news/news1.svg" style="width: 4vw; height: 5vw"/>
                     <span class="ml-3">
                         <p class="date">12.12.2019</p>
-                        <p class="title">
+                        <p class="title t-16">
                             Битва Чемпионов 11:
                         </p>
-                        <p class="title">
+                        <p class="title title-res t-16">
                             Школа против школы
                         </p>
                     </span>
@@ -90,10 +93,10 @@
                     <img src="@assets/images/news/news1.svg" style="width: 4vw; height: 5vw"/>
                     <span class="ml-3">
                         <p class="date">12.12.2019</p>
-                        <p class="title">
+                        <p class="title t-16">
                             Битва Чемпионов 11:
                         </p>
-                        <p class="title">
+                        <p class="title title-res t-16">
                             Школа против школы
                         </p>
                     </span>
@@ -102,10 +105,10 @@
                     <img src="@assets/images/news/news1.svg" style="width: 4vw; height: 5vw"/>
                     <span class="ml-3">
                         <p class="date">12.12.2019</p>
-                        <p class="title">
+                        <p class="title t-16">
                             Битва Чемпионов 11:
                         </p>
-                        <p class="title">
+                        <p class="title title-res t-16">
                             Школа против школы
                         </p>
                     </span>

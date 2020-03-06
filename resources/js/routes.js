@@ -8,6 +8,9 @@ import Loader from "./Pages/loader.vue"
 export default new VueRouter({
     mode: 'history',
     base: __dirname,
+    scrollBehavior() {
+        document.getElementById('app').scrollIntoView();
+    },
     routes: [
         {
             name:"landing",

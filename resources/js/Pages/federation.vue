@@ -10,7 +10,7 @@
                     <p class="position">Генеральный директор</p>
                 </span>
             </span>
-            <p class="text mb-5 pb-5">
+            <p class="text mb-5 pb-5 p1">
                 Японские боевые искусства, включающие в себя техники
                 работы с оружием и без него. Искусство рукопашного боя,
                 основным принципом которого является «мягкая», «податливая»
@@ -20,8 +20,8 @@
                 «податливая» техника движений.
             </p>
             <h3 class="mt-5 pt-5">Федерация Джиу-Джитсу</h3>
-            <span class="d-flex justify-content-between mt-4 mb-5">
-                <p>
+            <span class="d-flex justify-content-between mt-4 mb-5 sp1">
+                <p class="pr-5">
                     Японские боевые искусства, включающие в
                     себя техники работы с оружием и без него.
                     Искусство рукопашного боя, основным принципом
@@ -54,8 +54,8 @@
                     принципом которого является «мягкая», «податливая» техника движений.
                 </p>
             </span>
-            <h3 class="mt-5">История федерации</h3>
-            <div class="position-relative">
+            <h3 class="history-block mt-5">История федерации</h3>
+            <div class="history-block position-relative">
                 <img
                     class="position-absolute scroll-left"
                     src="@assets/images/common/arrow-left.svg"

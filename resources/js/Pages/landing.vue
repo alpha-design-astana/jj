@@ -1,13 +1,13 @@
 <template>
-    <div class="landing">
-        <template v-if="loadingPercent<100">
-            <Loader :loading="loadingPercent"/>
-        </template>
-        <template v-else>
+    <div>
+<!--        <template v-if="loadingPercent<100">-->
+<!--            <Loader :loading="loadingPercent"/>-->
+<!--        </template>-->
+        <template>
             <Navbar/>
             <Hero/>
             <Home/>
-            <Navbar/>
+            <Navbar class="bot-navbar"/>
         </template>
     </div>
 </template>
@@ -15,14 +15,14 @@
     import Navbar from "../Components/navbar.vue";
     import Hero from "../Components/hero.vue";
     import Home from "../Components/home.vue";
-    import Loader from "../Pages/loader.vue";
+    // import Loader from "../Pages/loader.vue";
 
     export default{
         components:{
             Navbar,
             Hero,
             Home,
-            Loader
+            // Loader
         },
         created() {
             let perfData = window.performance.timing;

@@ -2,7 +2,7 @@
     <div class="section">
         <Breadcrumb class="mt-5" item1="Главная" item2="Контакты"/>
         <h3 class="mb-3">Контакты</h3>
-        <div class="d-flex mb-5 pb-5 justify-content-between">
+        <div class="contacts-block d-flex mb-5 pb-5 justify-content-between">
             <div class="map">
                 <GmapMap
                     :zoom="14"
@@ -58,7 +58,7 @@
                 <p>Закрыть</p>
             </span>
             <div class="modal-contact d-flex flex-column align-items-center justify-content-center">
-                <h3 class="mb-5">Написать нам</h3>
+                <h3 class="mb-5 t-32">Написать нам</h3>
                 <input class="p-3 mb-3" placeholder="ФИО"/>
                 <input class="p-3 mb-3" placeholder="Ваша почта"/>
                 <textarea class="p-3 mb-5" placeholder="Текст письма"/>

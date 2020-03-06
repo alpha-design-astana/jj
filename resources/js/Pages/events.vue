@@ -1,8 +1,8 @@
 <template>
-    <div class="section">
+    <div class="section events-res">
         <Breadcrumb class="mt-5" item1="Главная" item2="Мероприятия"/>
-        <h3>Мероприятия</h3>
-        <div class="mb-5 pb-5 d-flex justify-content-between">
+        <h3 class="t-32">Мероприятия</h3>
+        <div class="mb-5 pb-5 mt-4 d-flex justify-content-between">
             <div class="calendar">
 
             </div>

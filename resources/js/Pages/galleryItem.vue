@@ -1,7 +1,7 @@
 <template>
     <div class="section">
         <Breadcrumb class="mt-5"/>
-        <h3>Битва чемпионов 11: Школа против школы</h3>
+        <h3 class="t-32">Битва чемпионов 11: Школа против школы</h3>
         <div class="d-flex flex-wrap justify-content-between mt-4">
             <div class="gallery-item mt-2 mb-2">
                 <img src="@assets/images/news/news2.png"/>

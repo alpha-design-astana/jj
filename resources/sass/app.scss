@@ -3,19 +3,37 @@
 @import 'components';
 @import 'details';
 @import 'loader';
+@import 'fonts';
+@import 'responsive';
 @font-face {
     font-family: "Helvetica";
     src: url("../assets/fonts/HelveticaNeueCyr-Light.woff2") format("woff2");
 }
+@font-face {
+    font-family: "Helvetica-Bold";
+    src: url("../assets/fonts/HelveticaNeueCyr-Bold.woff2") format("woff2");
+}
 body{
-    font-family: Helvetica;
-    p, h1, h3{
-        font-family: Helvetica;
-    }
+    color: #1B2E50;
     button{
         outline: none!important;
     }
     img{
         cursor: pointer!important;
     }
+}
+.helvetica{
+    font-family: "Helvetica";
+}
+.helvetica-bold{
+    font-family: "Helvetica-Bold";
+}
+.c-black{
+    color: #1B2E50;
+}
+.c-white{
+    color: white;
+}
+img{
+    object-fit: cover;
 }

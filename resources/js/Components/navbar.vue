@@ -1,22 +1,23 @@
 <template>
-    <div class="navbar-main d-flex justify-content-center">
+    <div class="navbar-main navheader d-flex justify-content-center">
         <nav class="navbar navbar-expand-lg pl-0 pr-0">
             <a class="navbar-brand" href="/">
                 <Logo fill="white" width="136" height="40"/>
             </a>
             <button
-                class="navbar-toggler"
+                class="navbar-toggler button-toggler"
                 type="button"
                 data-toggle="collapse"
                 data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
+                @click="show=!show"
             >
-                <span class="navbar-toggler-icon"></span>
+                <img class="navbar-toggler-icon" src="@assets/images/common/open-menu.svg"/>
             </button>
             <div
-                class="collapse navbar-collapse d-flex justify-content-between ml-4"
+                class="collapse navbar-collapse ml-4"
                 id="navbarSupportedContent"
             >
                 <span class="d-flex justify-content-between mr-3 mb-0 align-items-center">
@@ -28,7 +29,7 @@
                 <ul class="navbar-nav">
                     <li class="nav-item mr-2">
                         <router-link
-                            class="nav-link"
+                            class="nav-link t-15"
                             to="/"
                             :class="{'active': this.$route.path==='/'}"
                         >
@@ -37,7 +38,7 @@
                     </li>
                     <li class="nav-item mr-2">
                         <router-link
-                            class="nav-link"
+                            class="nav-link t-15"
                             :class="{'active': this.$route.path==='/pages/federation'}"
                             to="/pages/federation"
                         >
@@ -46,7 +47,7 @@
                     </li>
                     <li class="nav-item mr-2">
                         <router-link
-                            class="nav-link"
+                            class="nav-link t-15"
                             :class="{'active': this.$route.path==='/pages/events'}"
                             to="/pages/events"
                         >
@@ -55,7 +56,7 @@
                     </li>
                     <li class="nav-item mr-2">
                         <router-link
-                            class="nav-link"
+                            class="nav-link t-15"
                             :class="{'active': this.$route.path==='/pages/news'}"
                             to="/pages/news"
                         >
@@ -64,7 +65,7 @@
                     </li>
                     <li class="nav-item mr-2">
                         <router-link
-                            class="nav-link"
+                            class="nav-link t-15"
                             :class="{'active': this.$route.path==='/pages/gallery'}"
                             to="/pages/gallery"
                         >
@@ -73,7 +74,7 @@
                     </li>
                     <li class="nav-item mr-2">
                         <router-link
-                            class="nav-link"
+                            class="nav-link t-15"
                             :class="{'active': this.$route.path==='/pages/contacts'}"
                             to="/pages/contacts"
                         >
@@ -89,6 +90,11 @@
     import Logo from "../../assets/images/logo.vue";
     export default{
         name:'navbar-main',
+        data(){
+            return{
+                show: false,
+            }
+        },
         components:{
             Logo
         }

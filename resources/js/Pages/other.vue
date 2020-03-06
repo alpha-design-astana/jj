@@ -12,7 +12,7 @@
                 <Federation v-else-if="route_param === 'federation'"/>
             </div>
         </div>
-        <Navbar/>
+        <Navbar class="bot-navbar"/>
     </div>
 </template>
 <script>

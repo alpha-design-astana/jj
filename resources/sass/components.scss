@@ -1,7 +1,8 @@
 .hero{
     height: 561px;
+    overflow: hidden;
     background: url("../assets/images/hero-back.png");
-    background-size: cover;
+    background-size: auto 100%;
     .hero-content{
         margin-left: 20vw;
         color: white;
@@ -29,15 +30,17 @@
         }
     }
 }
+.calendar-row-altern-res{
+    display: none;
+}
 .section{
     width: 60vw;
     h3{
-        font-size: 32px;
         color: white;
     }
 }
 .home{
-    min-height: 200vh;
+    min-height: 50vh;
     background: #111111 url("../assets/images/home-back.png") bottom no-repeat;
     background-size: 100% auto;
 }
@@ -66,12 +69,12 @@
 .news-additions{
     width: 30%;
     color:white;
-    h4{
-        font-size: 24px;
-    }
     .related-news{
         background: #222222;
     }
+}
+.slide-button{
+    display: hidden;
 }
 .news-page{
     .news-back{
@@ -102,6 +105,15 @@
         }
     }
 }
+.shade {
+    width: 100%;
+    height: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,0.7343312324929971) 0%, rgba(7,7,9,0) 65%, rgba(232,234,235,0) 100%, rgba(215,220,221,0) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 .federation-about{
     background: transparent url('../assets/images/federation-back.png') no-repeat 100% 40% fixed;
     color: white;
@@ -121,6 +133,10 @@
     padding: 0!important;
     background: transparent!important;
 }
+.news-item-card{
+    width: 30%;
+    height: 17vw;
+}
 .timeline{
     overflow: hidden!important;
     width: 75vw;
@@ -133,6 +149,7 @@
         padding: 15px!important;
         border-radius: 10px!important;
         height: 15vw;
+        overflow-y: scroll;
         .title{
             font-size: 42px!important;
             border-bottom: 0.5px solid #656565;
